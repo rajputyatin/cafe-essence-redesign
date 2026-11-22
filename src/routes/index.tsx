@@ -33,6 +33,11 @@ function Index() {
       <SiteNav />
       <main>
         <Hero />
+        <div className="bg-primary py-5" aria-hidden="true">
+          <div className="mx-auto max-w-7xl px-5 md:px-8">
+            <div className="h-px bg-espresso/40" />
+          </div>
+        </div>
         <ServeGallery />
         <HeroDish />
         <section id="menu" className="scroll-mt-20 bg-background py-24 md:py-32">
