@@ -8,7 +8,7 @@ export function Signatures() {
     <div ref={ref}>
       <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
         <div className="reveal">
-          <SectionLabel index="03" className="text-muted-foreground">Plated to delight</SectionLabel>
+          <SectionLabel index="\n" className="text-muted-foreground">Plated to delight</SectionLabel>
           <h2 className="mt-5 font-serif text-[clamp(2.4rem,5vw,4rem)] leading-[1.05] tracking-tight">
             Signature <em className="text-primary">masterpieces</em>
           </h2>

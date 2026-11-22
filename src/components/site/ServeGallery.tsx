@@ -21,7 +21,7 @@ export function ServeGallery() {
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
           <div className="reveal">
-            <SectionLabel index="01" className="text-muted-foreground">Fresh from our Ahmedabad kitchen</SectionLabel>
+            <SectionLabel index="\n" className="text-muted-foreground">Fresh from our Ahmedabad kitchen</SectionLabel>
             <h2 className="mt-5 font-serif text-[clamp(2.4rem,5vw,4rem)] leading-[1.05] tracking-tight">
               What we <em className="text-primary">serve</em>
             </h2>

@@ -112,7 +112,7 @@ export function HeroDish() {
         <div className="order-1 lg:order-2">
           <div className="reveal">
             <SectionLabel index="02" className="text-primary-foreground/70" indexClassName="text-primary-foreground">
-              <span className="text-primary-foreground">The current hero dish</span>
+              <span className="text-primary-foreground">{"OUR LATEST \n"}</span>
             </SectionLabel>
             <p className="mt-6 inline-flex items-center gap-2 rounded-full border border-espresso/25 px-3.5 py-1 text-[0.7rem] font-bold uppercase tracking-[0.18em]">
               <span className="size-1.5 rounded-full bg-ember" />

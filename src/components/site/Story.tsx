@@ -31,7 +31,7 @@ export function Story() {
         <div className="grid gap-16 lg:grid-cols-[1.1fr_1fr]">
           <div>
             <div className="reveal">
-              <SectionLabel index="04" className="text-espresso-foreground/60">Our story &amp; values</SectionLabel>
+              <SectionLabel index="\n" className="text-espresso-foreground/60">Our story &amp; values</SectionLabel>
               <h2 className="mt-5 font-serif text-[clamp(2.4rem,5vw,4rem)] leading-[1.05] tracking-tight text-popover">
                 Crafted from passion,
                 <br />

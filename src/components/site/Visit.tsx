@@ -16,7 +16,7 @@ export function Visit() {
       <div className="mx-auto max-w-7xl px-5 md:px-8">
         <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
           <div className="reveal">
-            <SectionLabel index="05" className="text-muted-foreground">Plan your visit</SectionLabel>
+            <SectionLabel index="\n" className="text-muted-foreground">Plan your visit</SectionLabel>
             <h2 className="mt-5 font-serif text-[clamp(2.4rem,5vw,4rem)] leading-[1.05] tracking-tight">
               Find us in <em className="text-primary">Bodakdev</em>
             </h2>
