@@ -28,7 +28,7 @@ export function OvenArch() {
         </defs>
         <circle cx="100" cy="100" r="96" className="fill-espresso" />
         <text className="fill-current font-sans text-[15px] font-bold uppercase" letterSpacing="5.2">
-          <textPath href="#seal">Baked with love · Bodakdev · Ahmedabad ·</textPath>
+          <textPath href="#seal">Baked with love · The Yellow Oven ·</textPath>
         </text>
         <circle cx="100" cy="100" r="5" className="fill-current" />
       </svg>
