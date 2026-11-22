@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Single-page site: sections live in `src/components/site/*`, content (menu, prices, reviews, links) in `src/lib/site-data.ts` so copy edits never touch layout.
+- Opening-hours logic lives in `src/lib/hours.ts` and always uses Ahmedabad time (Asia/Kolkata), so visitors in other timezones see the café's real status.
+- Motion is CSS keyframes + IntersectionObserver reveals (no animation library), all disabled under prefers-reduced-motion.
