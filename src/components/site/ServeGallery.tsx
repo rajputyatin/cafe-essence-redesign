@@ -72,7 +72,6 @@ export function ServeGallery() {
                     on ? "opacity-100" : "opacity-60",
                   )}
                 />
-                <span className="absolute left-5 top-5 font-serif text-sm italic text-popover">0{i + 1}</span>
                 <span
                   className={cn(
                     "absolute inset-x-0 bottom-0 flex items-end justify-between gap-4 p-6 text-popover transition-all duration-700",
