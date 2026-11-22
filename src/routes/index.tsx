@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteNav } from "@/components/site/SiteNav";
 import { Hero } from "@/components/site/Hero";
-import { Marquee } from "@/components/site/Marquee";
 import { ServeGallery } from "@/components/site/ServeGallery";
 import { HeroDish } from "@/components/site/HeroDish";
 import { Signatures } from "@/components/site/Signatures";
@@ -34,7 +33,6 @@ function Index() {
       <SiteNav />
       <main>
         <Hero />
-        <Marquee />
         <ServeGallery />
         <HeroDish />
         <section id="menu" className="scroll-mt-20 bg-background py-24 md:py-32">
