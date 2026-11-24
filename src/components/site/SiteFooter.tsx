@@ -103,7 +103,7 @@ export function SiteFooter() {
         </div>
 
         <div className="flex flex-col gap-2 py-6 text-xs text-espresso-foreground/50 md:flex-row md:justify-between">
-          <p>&copy; 2026 The Yellow Oven. All rights reserved. Baked with love in Bodakdev, Ahmedabad.</p>
+          <p>&copy; 2026 The Yellow Oven. All rights reserved.</p>
           <p>Pure Callebaut · Zero palm oil · Handcrafted with pride</p>
         </div>
       </div>
