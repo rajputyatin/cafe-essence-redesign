@@ -36,7 +36,7 @@ export function SiteNav() {
           <LogoMark />
           <span className="leading-tight">
             <span className="block font-serif text-[1.05rem] font-bold tracking-[0.06em]">THE YELLOW OVEN</span>
-            <span className="block text-[0.66rem] uppercase tracking-[0.2em] opacity-70">Baked with love · Ahmedabad</span>
+            <span className="block text-[0.66rem] uppercase tracking-[0.2em] opacity-70">BAKED WITH LOVE</span>
           </span>
         </a>
 
