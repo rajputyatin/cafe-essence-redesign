@@ -31,7 +31,17 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./build
+      - name: Install dependencies
+        working-directory: ./server
+        run: rm -rf node_modules package-lock.json && npm install --legacy-peer-deps
+      - name: Build
+        working-directory: ./server
+        run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./server/dist   
 
   deploy:
     environment:
@@ -43,3 +53,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+    
