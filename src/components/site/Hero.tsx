@@ -79,7 +79,6 @@ export function Hero() {
         aria-label="Scroll to what we serve"
         className="absolute bottom-6 left-1/2 hidden -translate-x-1/2 flex-col items-center gap-2 text-[0.65rem] uppercase tracking-[0.3em] text-espresso-foreground/50 lg:flex"
       >
-        Scroll
         <span className="relative h-10 w-px overflow-hidden bg-espresso-foreground/20">
           <span className="anim-steam absolute inset-x-0 bottom-0 h-4 bg-primary" />
         </span>
